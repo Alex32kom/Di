@@ -10,7 +10,7 @@ class CmsAdmin(admin.ModelAdmin):
     readonly_fields = ('get_img',)
 
     def get_img(self, obj):
-        return mark_safe(f"<img src='{obj.cms_img.url}'width='80'>")
+        return mark_safe(f"<img src='{obj.cms_img.url}' width='80'>")
 
     get_img.short_description = 'Миниатюра'
 

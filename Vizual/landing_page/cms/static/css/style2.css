@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007acc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+
+
+}
+
+div.models{
+    margin: 50;
+    font-size: 0.75em;
+    color: #a9a;
+    padding: 10px 50px 0;
+
+}
+
+div.colab{
+    margin: 50;
+    font-size: 0.75em;
+    color: #a9a;
+    padding: 10px 50px 0;
+
+}
+
+
+div.dan{
+    margin: 50;
+    font-size: 0.75em;
+    color: #a9a;
+    padding: 10px 50px 0;
+
+}
+
+div.analiz{
+    margin: 50;
+    font-size: 0.75em;
+    color: #a9a;
+    padding: 10px 50px 0;
+
+}
+
+div.effect{
+    margin: 50;
+    font-size: 0.75em;
+    color: #a9a;
+    padding: 10px 50px 0;
+
+}
+
+div.itog{
+    margin: 50;
+    font-size: 1em;
+    color: #00b300;
+    padding: 10px 50px 0;
+
+    font-weight: bold;
+
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #005fa3;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007acc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007acc;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
