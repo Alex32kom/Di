@@ -88,4 +88,19 @@ body{
 	align-items: center;
 	height: calc(100vh - 162px);
 }
+div.raboty {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: #fffaf0;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+
+
+}
+
+
 

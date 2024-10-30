@@ -18,7 +18,7 @@ def first_page(request):
         'pc_1': pc_1,
         'pc_2': pc_2,
         'pc_3': pc_3,
-        'price_table': price_table,
+        'price_table': price_table ,
         'form': form
     }
     return render(request, 'cms/index.html', context)
