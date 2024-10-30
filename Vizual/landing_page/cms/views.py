@@ -39,3 +39,6 @@ def thanks_page(request):
 def bim_page(request):
     return render(request, 'cms/bim_page.html')
 
+
+def skills_page(request):
+    return render(request, 'skills/skills_page.html')

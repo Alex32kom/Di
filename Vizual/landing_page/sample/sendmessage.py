@@ -3,7 +3,7 @@ from .models import SampleSettings
 
 
 def send_telegram(tg_name, tg_phone):
-    settings = SampleSettings.objects.get(pk=1)
+    settings = SampleSettings.objects.get(pk=2)
     token = settings.tg_token
     chat_id = settings.tg_chat
     text = settings.tg_message

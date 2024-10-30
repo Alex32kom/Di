@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'price.apps.PriceConfig',
     'crm.apps.CrmConfig',
     'sample.apps.SampleConfig',
+    'skills.apps.SkillsConfig',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,17 @@
+{% extends 'skills/base.html' %}
+{% block content %}
+<h1>Проектирование мебели</h1>
+<h2>
+</h2>
+
+<div class="block">
+    {% for skill in skills %}
+    {{ skill.title }}
+    {{ skill.description }}
+    <div class="element">
+        <div><img src="{{ skill.image.url }}" alt=""></div>
+        {% endfor %}
+
+    </div>
+</div>
+{% endblock %}

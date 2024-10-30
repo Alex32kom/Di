@@ -39,6 +39,8 @@
   	<!-- Таблица -->
   	<section>
   		<div class="container">
+
+			 <a class="text-dark" href="{% url 'skill' %}"> <b><u>Примеры проектирования встроенной мебели<b></b>  </></a>
   			<h1 class="text-3">Цены на услуги</h1>
   			<table class="table table_one">
 			  <thead class="alert-success">
@@ -56,6 +58,7 @@
 			      <td>{{ obj.pt_new_price }}</td>
 			    </tr>
 			  {% endfor %}
+
 			  </tbody>
 			</table>
   		</div>
