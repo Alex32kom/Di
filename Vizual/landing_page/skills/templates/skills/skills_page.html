@@ -7,7 +7,7 @@
 <div class="block">
     {% for skill in skills %}
     {{ skill.title }}
-    {{ skill.description }}
+    {{ skill.description|safe }}
     <div class="element">
         <div><img src="{{ skill.image.url }}" alt=""></div>
         {% endfor %}
