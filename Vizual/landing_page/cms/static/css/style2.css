@@ -1,12 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 100;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #efe6e6!important;
     color: #333;
     font-size: 2em;
+    text-align: center!important;
 }
+
+.logo-top {
+  float: left;
+  margin: 0px 0px 5px 30px;
+
+
+}
+
 
 header {
     background: #007acc;
@@ -150,3 +159,9 @@ TEXT-ALIGN: center;
 font-size: 20px!important;
 font-family: "Roboto", sans-serif;
    input type="text" style="font-size: 20px;}
+
+
+skill.title {
+       font-family: 'Arial', sans-serif;
+       font-size: 14px;
+   }
