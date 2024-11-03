@@ -17,6 +17,14 @@ body {
 }
 
 
+skill.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-color: #007acc;
+}
+
+
 header {
     background: #007acc;
     color: #fff;
